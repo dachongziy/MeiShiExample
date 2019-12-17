@@ -27,6 +27,7 @@ const tabIcons = [
 
 ]
 
+// 选中后的样式
 const tabSelectedIcon = [
 
     require('../resource/ic_tab_search_select.png'),

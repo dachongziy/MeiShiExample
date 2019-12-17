@@ -37,6 +37,7 @@ export default class TabBar extends Component {
                         >
                             <View style={styles.tabItem}>
                                 <Image style={styles.icon} source={icon}/>
+                                {/*tabTitles = ['食物百科', '逛吃', '我的']*/}
                                 <Text style={{color: color, fontSize: 12}}>{tabNames[i]}</Text>
                             </View>
                         </TouchableOpacity>
