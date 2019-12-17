@@ -7,7 +7,7 @@ import {Provider} from 'mobx-react/native'
 import stores from './src/store'
 // 网络信息装饰器，
 import NetInfoDecorator from './src/common/NetInfoDecorator'
-// 包含了页面的主提
+// 包含了页面的主体
 import App from './src'
 
 if (!__DEV__) {

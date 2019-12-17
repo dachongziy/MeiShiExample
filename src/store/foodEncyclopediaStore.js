@@ -8,6 +8,7 @@ class FoodEncyclopediaStore {
     @action
     fetchCategoryList = async() => {
         try {
+            // 食物分类列表
             const url = 'http://food.boohee.com/fb/v1/categories/list'
             const responseData = await get({url, timeout: 30}).then(res => res.json())
 
